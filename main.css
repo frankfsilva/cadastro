@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    overflow-x: hidden;     /*tudo que ultrapassar a largura máxima da tela será ocultado*/
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;            /*largura que deve ocupar*/
+    margin: 0 auto;         /*centralizando o container na horizontal*/
+}
+
+header {
+    background-color:  #192a56;
+    color: #fff;
+    font-size: 12px;
+    padding: 16px 0;
+    text-transform: uppercase;
+}
+
+form .container {
+    display:flex;
+    justify-content: space-between;
+}
+
+#nome {
+    width: 400px;
+    padding: 5px;
+}
+
+#cpf {
+    width: 110px;
+    text-align: center;
+}
+
+#email {
+    width: 300px;
+    padding: 5px;
+}
+
+#telefone {
+    width: 110px;
+    text-align: center;
+}
+
+#endereco {
+    width: 280px;
+    padding: 5px;
+}
+
+#bairro {
+    width: 140px;
+    padding: 5px;
+}
+
+#cidade {
+    width: 160px;
+    padding: 5px;
+}
+
+#cep {
+    width: 100px;
+    text-align: center;
+}
+
+#numero,
+#uf {
+    width: 70px;
+    text-align: center;
+}
+
+form h2,
+form button {
+    margin: 10px 0;
+}
+
+form input {
+    height: 25px;
+}
+
+form button {
+    height: 25px;
+    padding: 0 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+table th {
+    border-bottom: 2px solid #000000;
+    height: 25px;
+    padding: auto auto;
+    font-size: 15px;
+}
+
+table td {
+    border-bottom: 2px solid gray;
+    font-size: 13px;
+    padding: 2px 0;
+    text-align: center;
+}
+
+
